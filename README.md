@@ -69,7 +69,7 @@ Compare that hash with the sender's hash. Do not disable antivirus protection to
 ## ❤️ Credits & Soundtrack
 
 - **Project Architect & Creator**: **MassaHex**
-- **AI Engineering**: **GitHub Copilot**
+- **AI Engineering**: **Gemini & GitHub Copilot**
 - **Official Soundtrack**: **"KERS" by MassaHex** (Synthwave, Non-Copyright / Royalty Free)
   - 🔗 **Listen on SoundCloud**: [https://soundcloud.com/massahex/kers](https://soundcloud.com/massahex/kers)
   - *Feel free to support, stream, and add "KERS" to your playlists!*
