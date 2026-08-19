@@ -1,4 +1,10 @@
-# Unreal Engine INI Visual Merger & Project Hub
+<p align="center">
+   <img src="assets/UnrealINI.png" alt="Unreal INI Visual Merger icon" width="160">
+</p>
+
+<h1 align="center">Unreal INI Visual Merger</h1>
+
+<p align="center">A visual project hub for comparing, resolving, and merging Unreal Engine INI configuration files.</p>
 
 A native Windows desktop application built with Python & Tkinter for visually comparing, resolving, and merging Unreal Engine `.ini` configuration files (e.g. merging custom gameplay projects with the **Game Animation Sample Project**, Lyra Starter Game, or template updates).
 
