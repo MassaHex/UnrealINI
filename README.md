@@ -20,6 +20,7 @@ A native Windows desktop application built with Python & Tkinter for visually co
 - **`gui_merger.py`** : Visual INI comparator with granular Left / Right / Skip controls, bulk resolution, and overwrite buttons.
 - **`requirements.txt`** : Dependencies (Pillow for thumbnail previews, PyInstaller for standalone .exe export).
 - **`build_exe.bat`** : 1-click Windows batch script to compile into `dist/UnrealIniMerger.exe`.
+- **`version_info.txt`** : Windows EXE metadata for product name, version, and publisher details.
 - **`run.bat`** : 1-click batch launcher to run with python.
 
 ---

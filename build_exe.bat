@@ -92,7 +92,7 @@ if exist "kers.mp3" (
 
 echo.
 echo [*] Step 4: Compiling into a SINGLE standalone .EXE file (Final Polish)...
-%PY_CMD% -m PyInstaller --noconfirm --clean --onefile --windowed --noupx --name "UnrealIniMerger" %ICON_ARG% %AUDIO_ARG% --hidden-import PIL._imagingtk --hidden-import PIL._tkinter_finder --exclude-module PIL.AvifImagePlugin --exclude-module tkinter.test --exclude-module matplotlib --exclude-module scipy --exclude-module numpy --exclude-module pytest --exclude-module unittest --exclude-module pydoc --exclude-module distutils --exclude-module setuptools main.py
+%PY_CMD% -m PyInstaller --noconfirm --clean --onefile --windowed --noupx --name "UnrealIniMerger" --version-file version_info.txt %ICON_ARG% %AUDIO_ARG% --hidden-import PIL._imagingtk --hidden-import PIL._tkinter_finder --exclude-module PIL.AvifImagePlugin --exclude-module tkinter.test --exclude-module matplotlib --exclude-module scipy --exclude-module numpy --exclude-module pytest --exclude-module unittest --exclude-module pydoc --exclude-module distutils --exclude-module setuptools main.py
 
 if %errorlevel% equ 0 (
   echo.
